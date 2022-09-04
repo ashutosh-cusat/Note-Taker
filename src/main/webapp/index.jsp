@@ -12,7 +12,17 @@
   <body>
     <div class="container">
     	<%@include file="navbar.jsp" %>
-    	<h1>This is home page</h1>
+    	<br>
+    	
+    	<div class="card py-5" >
+    	<img alt="" class="img-fluid mx-auto" style="max-width:400px;" src="img/notes.png">
+    	<h1 class="text-primary text-center text-upper mt-3">Start Taking your notes</h1>
+    	
+    	<div class="container text-center">
+    	<a href="add_notes.jsp"><button class="btn btn-outline-primary text-center">Start Here</button>
+    	</a>
+    	</div>
+    	</div>
     
     
     </div>

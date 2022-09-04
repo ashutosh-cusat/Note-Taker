@@ -25,11 +25,11 @@
 			 
 			 <%
 			 
-		Session s=FactoryProvider.getFactory().openSession();
-		Query q=s.createQuery("from Note");
-		List<Note> list=q.list();
-		
-		for(Note note:list){
+			Session s=FactoryProvider.getFactory().openSession();
+			Query q=s.createQuery("from Note");
+			List<Note> list=q.list();
+			
+			for(Note note:list){
 			%>
 					<div class="card mt-3">
 					<img class="card-img-top m-4" style="max-width:100px;" src="img/notes.png" alt="Card image cap">
